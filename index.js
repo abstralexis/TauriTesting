@@ -1,4 +1,6 @@
-const { invoke } = window.__TAURI__.tauri;
+const { tauri } = require("@tauri-apps/api");
+
+const { invoke } = tauri.invoke;
 
 function rust_hello() {
     invoke("hello");
