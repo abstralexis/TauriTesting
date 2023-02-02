@@ -1,0 +1,24 @@
+{
+  "name": "tauritesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri": "tauri",
+    "dev": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisComix/TauriTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisComix/TauriTesting/issues"
+  },
+  "homepage": "https://github.com/AlexisComix/TauriTesting#readme",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3"
+  }
+}
